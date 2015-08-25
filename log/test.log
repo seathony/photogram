@@ -1,0 +1,303 @@
+  [1m[36m (118.8ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (881.4ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:37:24 -0400
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (119.3ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (882.3ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:40:56 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (55.3ms)
+Completed 200 OK in 1181ms (Views: 1162.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (216.7ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (863.4ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (21.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.0ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (1.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:41:33 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (38.1ms)
+Completed 200 OK in 276ms (Views: 254.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (118.7ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (873.4ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (21.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (17.1ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.9ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (4.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:42:31 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (61.7ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (118.9ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (879.0ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (18.5ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.0ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.9ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (6.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:43:38 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (19.4ms)
+Completed 200 OK in 315ms (Views: 291.5ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:43:39 -0400
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (118.2ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (884.0ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (18.6ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.6ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (1.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (6.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:44:30 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (36.3ms)
+Completed 200 OK in 273ms (Views: 250.3ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:44:31 -0400
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (119.8ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (875.4ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (19.6ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.7ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.8ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:44:57 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (16.1ms)
+Completed 200 OK in 265ms (Views: 246.9ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:44:57 -0400
+Processing by PostsController#new as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (117.0ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (871.6ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.2ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (1.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:46:05 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (31.2ms)
+Completed 200 OK in 259ms (Views: 241.5ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:46:05 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (2.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (117.2ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (869.7ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (25.8ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (16.0ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (1.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:49:15 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (19.4ms)
+Completed 200 OK in 286ms (Views: 268.3ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:49:15 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (82.5ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (219.2ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (884.2ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (32.6ms)[0m  CREATE TABLE "posts" ("id" serial primary key, "caption" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (16.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (16.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.9ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150825135017')
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:51:18 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (20.4ms)
+Completed 200 OK in 289ms (Views: 270.2ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:51:18 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (82.8ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 8.3ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (118.6ms)[0m  [1mDROP DATABASE IF EXISTS "photogram_test"[0m
+  [1m[35m (887.7ms)[0m  CREATE DATABASE "photogram_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (33.8ms)[0m  CREATE TABLE "posts" ("id" serial primary key, "caption" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "image_file_name" character varying, "image_content_type" character varying, "image_file_size" integer, "image_updated_at" timestamp) 
+  [1m[36m (16.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (16.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150825135744')
+  [1m[36m (4.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150825135017')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-08-25 09:59:20 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (19.2ms)
+Completed 200 OK in 236ms (Views: 217.9ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 09:59:20 -0400
+Processing by PostsController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 5.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:00:10 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (16.2ms)
+Completed 200 OK in 215ms (Views: 201.1ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:00:11 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (108.8ms)
+Completed 200 OK in 122ms (Views: 110.5ms | ActiveRecord: 3.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:01:49 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (12.2ms)
+Completed 200 OK in 183ms (Views: 173.4ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:01:49 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (109.1ms)
+Completed 200 OK in 123ms (Views: 111.0ms | ActiveRecord: 4.7ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:05:19 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (13.4ms)
+Completed 200 OK in 203ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:05:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (108.4ms)
+Completed 200 OK in 124ms (Views: 110.2ms | ActiveRecord: 6.1ms)
+Started POST "/posts" for 127.0.0.1 at 2015-08-25 10:05:19 -0400
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:07:45 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (10.8ms)
+Completed 200 OK in 174ms (Views: 165.6ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:07:45 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (105.2ms)
+Completed 200 OK in 120ms (Views: 106.9ms | ActiveRecord: 5.5ms)
+Started POST "/posts" for 127.0.0.1 at 2015-08-25 10:07:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00000000f9c1a8 @tempfile=#<Tempfile:/tmp/RackMultipart20150825-10626-6spdqa.jpg>, @original_filename="coffee.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"coffee.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 304947\r\n">, "caption"=>"nom nom nom #coffeetime"}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:08:49 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (10.5ms)
+Completed 200 OK in 176ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:08:50 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (111.2ms)
+Completed 200 OK in 127ms (Views: 114.1ms | ActiveRecord: 4.8ms)
+Started POST "/posts" for 127.0.0.1 at 2015-08-25 10:08:50 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00000003393390 @tempfile=#<Tempfile:/tmp/RackMultipart20150825-10690-1f9m2od.jpg>, @original_filename="coffee.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"coffee.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 304947\r\n">, "caption"=>"nom nom nom #coffeetime"}, "commit"=>"Create Post"}
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10690-1ljfumn.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10690-ezdfe1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10690-ezdfe1.jpg[0]'
+Command :: convert '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10690-ezdfe1.jpg[0]' -auto-orient -resize "640" '/tmp/5dcc830db7aa65d650da66e8324c02ca20150825-10690-f86yxd'
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10690-177yoec.jpg'
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("caption", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "nom nom nom #coffeetime"], ["image_file_name", "coffee.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 304947], ["image_updated_at", "2015-08-25 14:08:50.219998"], ["created_at", "2015-08-25 14:08:50.431539"], ["updated_at", "2015-08-25 14:08:50.431539"]]
+  [1m[36m (0.5ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts/1
+Completed 302 Found in 242ms (ActiveRecord: 1.4ms)
+Started GET "/posts/1" for 127.0.0.1 at 2015-08-25 10:08:50 -0400
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:09:56 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (14.3ms)
+Completed 200 OK in 202ms (Views: 190.6ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:09:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (110.9ms)
+Completed 200 OK in 126ms (Views: 112.6ms | ActiveRecord: 5.9ms)
+Started POST "/posts" for 127.0.0.1 at 2015-08-25 10:09:57 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000000244a258 @tempfile=#<Tempfile:/tmp/RackMultipart20150825-10793-7uct4d.jpg>, @original_filename="coffee.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"coffee.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 304947\r\n">, "caption"=>"nom nom nom #coffeetime"}, "commit"=>"Create Post"}
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10793-fybb3x.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10793-1e07xm9.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10793-1e07xm9.jpg[0]'
+Command :: convert '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10793-1e07xm9.jpg[0]' -auto-orient -resize "640" '/tmp/328ee1cd2b5bab8ea5e7ce865867b45020150825-10793-8t108b'
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10793-h5ahtc.jpg'
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("caption", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "nom nom nom #coffeetime"], ["image_file_name", "coffee.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 304947], ["image_updated_at", "2015-08-25 14:09:57.114740"], ["created_at", "2015-08-25 14:09:57.332754"], ["updated_at", "2015-08-25 14:09:57.332754"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts/2
+Completed 302 Found in 271ms (ActiveRecord: 1.2ms)
+Started GET "/posts/2" for 127.0.0.1 at 2015-08-25 10:09:57 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-08-25 10:11:02 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.slim within layouts/application (10.7ms)
+Completed 200 OK in 177ms (Views: 168.3ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new" for 127.0.0.1 at 2015-08-25 10:11:03 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.slim within layouts/application (108.0ms)
+Completed 200 OK in 123ms (Views: 109.8ms | ActiveRecord: 5.5ms)
+Started POST "/posts" for 127.0.0.1 at 2015-08-25 10:11:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000000244bd10 @tempfile=#<Tempfile:/tmp/RackMultipart20150825-10875-va0wuo.jpg>, @original_filename="coffee.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"coffee.jpg\"\r\nContent-Type: image/jpeg\r\nContent-Length: 304947\r\n">, "caption"=>"nom nom nom #coffeetime"}, "commit"=>"Create Post"}
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10875-132cahx.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10875-1da8nmy.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10875-1da8nmy.jpg[0]'
+Command :: convert '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10875-1da8nmy.jpg[0]' -auto-orient -resize "640" '/tmp/3591f3f991fac571a078681b2217299220150825-10875-dym1ct'
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+Command :: file -b --mime '/tmp/24eb05d18318ac2db8b2b959315d10f220150825-10875-110xfhq.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("caption", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "nom nom nom #coffeetime"], ["image_file_name", "coffee.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 304947], ["image_updated_at", "2015-08-25 14:11:03.252055"], ["created_at", "2015-08-25 14:11:03.496110"], ["updated_at", "2015-08-25 14:11:03.496110"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts/3
+Completed 302 Found in 292ms (ActiveRecord: 1.1ms)
+Started GET "/posts/3" for 127.0.0.1 at 2015-08-25 10:11:03 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered posts/show.slim within layouts/application (4.7ms)
+Completed 200 OK in 15ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
